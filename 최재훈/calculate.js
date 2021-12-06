@@ -1,27 +1,22 @@
-
-
 let add =(a,b)=>{
      return  `${a}+${b}=${parseInt(a+b)}`;
- 
 };
 
 
 let subtract = (a,b)=>{
     return `${a}-${b}=${parseInt(a-b)}`;
-   
  };
  
 
  let multiply =(a,b)=>{
     return `${a}*${b}=${parseInt(a*b)}`;
-  
  };
  
  let divide = (a,b)=>{
     return `${a}/${b}=${parseInt(a/b)}`;
-  
 
  };
+ 
 const test =  add(10,5);
 const test2 = subtract(10,5);
 const test3 = multiply(10,5);
