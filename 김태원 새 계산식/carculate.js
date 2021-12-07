@@ -1,25 +1,15 @@
-function add(a, b){
-    return a+b;
-}
+const add = (a, b)=> a + b
+const sub = (a, b)=> a - b
+const mul = (a, b)=> a * b
+const div = (a, b)=> a / b
+const squ = (a, b)=> a ** b
 
-function sub(a, b){
-    return a-b;
-}
+console.log(add(2,4))
 
-function mul(a, b){
-    return a*b;
-}
+console.log(squ(6,5));
+console.log(mul(11,9));
 
-function div(a, b){
-    return a/b;
-}
-
-function squ(a, b){
-    return a**b;
-}
+console.log(div(8,7));
+console.log(sub(33,22));
 
 console.log(add(55,44));
-console.log(sub(33,22));
-console.log(mul(11,9));
-console.log(div(8,7));
-console.log(squ(6,5));
