@@ -7,4 +7,3 @@ console.log(add(100,5));
 console.log(subtract(230,86));
 console.log(multiplay(15,19));
 console.log(divide(10,2));
-//주석추가
