@@ -8,4 +8,5 @@ console.log(add(100,5));
 console.log(subtract(230,86));
 console.log(multiplay(15,19));
 console.log(divide(10,2));
-console.log(square(2,6));
+
+// Issue와 Discussion 연습을 위한 주석입니다.
